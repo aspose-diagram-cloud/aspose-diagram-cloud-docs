@@ -42,7 +42,7 @@ The GitHub repository for [Aspose.Diagram Cloud](https://github.com/aspose-diagr
 
 
 
-{{< gist "" "f4514c834e8a9e661e8a8beab0b0dc39" "save\_file\_as\_another\_format.js" >}}
+{{< gist "" "f4514c834e8a9e661e8a8beab0b0dc39" "save_file_as_another_format.js" >}}
 
 {{< /tab >}}
 

@@ -21,7 +21,7 @@ With [POST /diagram/{name}/SaveAs](https://apireference.aspose.cloud/diagram/#!/
 
 curl -v "https://api.aspose.cloud/oauth2/token" \
 -X POST \
--d 'grant\_type=client\_credentials&client\_id=0B17F60A-6D69-426B-9ABD-79F35A6E9F7B&client\_secret=53b8b19adffa41a3e87dbbd8858977ae' \
+-d 'grant_type=client_credentials&client_id=0B17F60A-6D69-426B-9ABD-79F35A6E9F7B&client_secret=53b8b19adffa41a3e87dbbd8858977ae' \
 -H "Content-Type: application/x-www-form-urlencoded" \
 -H "Accept: application/json"
 
@@ -29,12 +29,12 @@ curl -v "https://api.aspose.cloud/oauth2/token" \
 
 // cURL example to convert Diagram file to another format
 
-curl -v "https://api.aspose.cloud/v1.1/diagram/file\_get\_1.vdx/SaveAs?IsOverwrite=true&newfilename=file\_get\_1.pdf" \
+curl -v "https://api.aspose.cloud/v1.1/diagram/file_get_1.vdx/SaveAs?IsOverwrite=true&newfilename=file_get_1.pdf" \
 -X POST \
 -d '{"Format":"pdf"}' \
 -H "Content-Type: application/json" \
 -H "Accept: application/json" \
--H "Authorization: Bearer Ddc-erbNb\_b1GGm-s0T\_vATc72hQdgCPlmsWQJzSiuLWiYYLa1aIZQC2p64xDV5rjdVCYaR-4PIy\_Djgvc2mqlN6uu13O90fvu66TKKAPWLJi-50D0WxpZr1l-7en2VkkDUnMgkMphdmGGN3IWRgc22XxMXab72oh0njvfDVoAskGjbFDrl3jxDBYnGDbfqGF5\_YHnliYJ2gq40uc2\_rVgoDNJoGz6PMs2bNDm2zuUXTD7Hy07qxE5nWxNkaYNMY3RxuDXvLrQommIB9Nboyt8v40G5yJ0nDCFUKgsmM6BhEGe9afDFLd3vQQTRqfWYlWSsi8kfhKW5pCqNqaHe\_NJkzkmhYdqFxrUJhaJrp5xEGUAh2eH8V3G\_sTaP0DxhMRQB7VSCIqyHsUgqPBVrHH5pujM-nEaPCPQK9gsiblvkPjXka"
+-H "Authorization: Bearer Ddc-erbNb_b1GGm-s0T_vATc72hQdgCPlmsWQJzSiuLWiYYLa1aIZQC2p64xDV5rjdVCYaR-4PIy_Djgvc2mqlN6uu13O90fvu66TKKAPWLJi-50D0WxpZr1l-7en2VkkDUnMgkMphdmGGN3IWRgc22XxMXab72oh0njvfDVoAskGjbFDrl3jxDBYnGDbfqGF5_YHnliYJ2gq40uc2_rVgoDNJoGz6PMs2bNDm2zuUXTD7Hy07qxE5nWxNkaYNMY3RxuDXvLrQommIB9Nboyt8v40G5yJ0nDCFUKgsmM6BhEGe9afDFLd3vQQTRqfWYlWSsi8kfhKW5pCqNqaHe_NJkzkmhYdqFxrUJhaJrp5xEGUAh2eH8V3G_sTaP0DxhMRQB7VSCIqyHsUgqPBVrHH5pujM-nEaPCPQK9gsiblvkPjXka"
 
 ```
 
@@ -50,7 +50,7 @@ curl -v "https://api.aspose.cloud/v1.1/diagram/file\_get\_1.vdx/SaveAs?IsOverwri
 
     "SourceDocument": {
 
-      "Href": "file\_get\_1.vdx",
+      "Href": "file_get_1.vdx",
 
       "Rel": null,
 
@@ -62,7 +62,7 @@ curl -v "https://api.aspose.cloud/v1.1/diagram/file\_get\_1.vdx/SaveAs?IsOverwri
 
     "DestDocument": {
 
-      "Href": "file\_get\_1.pdf",
+      "Href": "file_get_1.pdf",
 
       "Rel": null,
 
@@ -108,7 +108,7 @@ Using an SDK (API client) is the quickest way for a developer to speed up the de
 
 
 
-{{< gist "" "f4514c834e8a9e661e8a8beab0b0dc39" "save\_file\_as\_another\_format.js" >}}
+{{< gist "" "f4514c834e8a9e661e8a8beab0b0dc39" "save_file_as_another_format.js" >}}
 
 {{< /tab >}}
 

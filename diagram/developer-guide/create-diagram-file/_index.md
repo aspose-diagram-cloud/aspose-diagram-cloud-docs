@@ -21,7 +21,7 @@ With [PUT /diagram/{name}](https://apireference.aspose.cloud/diagram/#!/DiagramF
 
 curl -v "https://api.aspose.cloud/oauth2/token" \
 -X POST \
--d 'grant\_type=client\_credentials&client\_id=0B17F60A-6D69-426B-9ABD-79F35A6E9F7B&client\_secret=53b8b19adffa41a3e87dbbd8858977ae' \
+-d 'grant_type=client_credentials&client_id=0B17F60A-6D69-426B-9ABD-79F35A6E9F7B&client_secret=53b8b19adffa41a3e87dbbd8858977ae' \
 -H "Content-Type: application/x-www-form-urlencoded" \
 -H "Accept: application/json"
 
@@ -29,12 +29,12 @@ curl -v "https://api.aspose.cloud/oauth2/token" \
 
 // cURL example to create Diagram file
 
-curl -v "https://api.aspose.cloud/v1.1/diagram/file\_get\_2.vdx?IsOverwrite=true" \
+curl -v "https://api.aspose.cloud/v1.1/diagram/file_get_2.vdx?IsOverwrite=true" \
 -X PUT \
 -H "Content-Type: application/json" \
 -H "Accept: application/json" \
 -H "Content-Length: 0" \
--H "Authorization: Bearer MkXEvgOqmZKDaDR2hz3cGEKg8xT7llGJrWqnmFvzu8zM6XzgZ3mFsko--AmqZfQPIIjkEL4G8ONGqcEMHjsgqf7QK6IqjQyHzkDtZ\_osOvOQvjolhibZ0dy238Tq\_C4PgOQgL82N2l0bz4RksV56oByU8mdb0l\_mI-yhNeQqLuZHxjF7Dmqdkigitkb4Lo2CtN5ANnnTYB9ueS2GVwuqwsEm04qk8eGvYvg1DqYYThGki0vKKpHBQh3q7mliSSRKs5W8opSqWdJ76RExKDyJjrOMLub431t4BzdOhSA8E52-\_OJM7fND5hOr2kxXpvwl9AMADRR7CxLtX89UqrNwqhcw1FHuEEZtRdln5k1r-t9dWTdKxJeMpUEGaLnvTNBKtt4s6IAevbdtdkKYMSsSOhZhww9Cfvc6RSEk6ipBLMrE4Tdo"
+-H "Authorization: Bearer MkXEvgOqmZKDaDR2hz3cGEKg8xT7llGJrWqnmFvzu8zM6XzgZ3mFsko--AmqZfQPIIjkEL4G8ONGqcEMHjsgqf7QK6IqjQyHzkDtZ_osOvOQvjolhibZ0dy238Tq_C4PgOQgL82N2l0bz4RksV56oByU8mdb0l_mI-yhNeQqLuZHxjF7Dmqdkigitkb4Lo2CtN5ANnnTYB9ueS2GVwuqwsEm04qk8eGvYvg1DqYYThGki0vKKpHBQh3q7mliSSRKs5W8opSqWdJ76RExKDyJjrOMLub431t4BzdOhSA8E52-_OJM7fND5hOr2kxXpvwl9AMADRR7CxLtX89UqrNwqhcw1FHuEEZtRdln5k1r-t9dWTdKxJeMpUEGaLnvTNBKtt4s6IAevbdtdkKYMSsSOhZhww9Cfvc6RSEk6ipBLMrE4Tdo"
 
 ```
 
@@ -80,7 +80,7 @@ Using an SDK (API client) is the quickest way for a developer to speed up the de
 
 
 
-{{< gist "" "f4514c834e8a9e661e8a8beab0b0dc39" "create\_new\_file.js" >}}
+{{< gist "" "f4514c834e8a9e661e8a8beab0b0dc39" "create_new_file.js" >}}
 
 {{< /tab >}}
 
