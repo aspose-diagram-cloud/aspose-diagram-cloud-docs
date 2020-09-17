@@ -17,17 +17,12 @@ With [PUT /diagram/{name}](https://apireference.aspose.cloud/diagram/#!/DiagramF
 ```java
 
 // First get Access Token
-
 // Get App Key and App SID from https://dashboard.aspose.cloud/
 
 curl -v "https://api.aspose.cloud/oauth2/token" \
-
 -X POST \
-
 -d 'grant\_type=client\_credentials&client\_id=0B17F60A-6D69-426B-9ABD-79F35A6E9F7B&client\_secret=53b8b19adffa41a3e87dbbd8858977ae' \
-
 -H "Content-Type: application/x-www-form-urlencoded" \
-
 -H "Accept: application/json"
 
 
@@ -35,15 +30,10 @@ curl -v "https://api.aspose.cloud/oauth2/token" \
 // cURL example to create Diagram file
 
 curl -v "https://api.aspose.cloud/v1.1/diagram/file\_get\_2.vdx?IsOverwrite=true" \
-
 -X PUT \
-
 -H "Content-Type: application/json" \
-
 -H "Accept: application/json" \
-
 -H "Content-Length: 0" \
-
 -H "Authorization: Bearer MkXEvgOqmZKDaDR2hz3cGEKg8xT7llGJrWqnmFvzu8zM6XzgZ3mFsko--AmqZfQPIIjkEL4G8ONGqcEMHjsgqf7QK6IqjQyHzkDtZ\_osOvOQvjolhibZ0dy238Tq\_C4PgOQgL82N2l0bz4RksV56oByU8mdb0l\_mI-yhNeQqLuZHxjF7Dmqdkigitkb4Lo2CtN5ANnnTYB9ueS2GVwuqwsEm04qk8eGvYvg1DqYYThGki0vKKpHBQh3q7mliSSRKs5W8opSqWdJ76RExKDyJjrOMLub431t4BzdOhSA8E52-\_OJM7fND5hOr2kxXpvwl9AMADRR7CxLtX89UqrNwqhcw1FHuEEZtRdln5k1r-t9dWTdKxJeMpUEGaLnvTNBKtt4s6IAevbdtdkKYMSsSOhZhww9Cfvc6RSEk6ipBLMrE4Tdo"
 
 ```
