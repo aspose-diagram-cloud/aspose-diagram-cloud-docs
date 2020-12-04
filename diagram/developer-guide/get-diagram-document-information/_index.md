@@ -17,7 +17,7 @@ With [GET /diagram/{name}](https://apireference.aspose.cloud/diagram/#!/DiagramF
 ```java
 
 // First get Access Token
-// Get App Key and App SID from https://dashboard.aspose.cloud/
+// Get Client Secret and Client Id from https://dashboard.aspose.cloud/
 
 curl -v "https://api.aspose.cloud/oauth2/token" \
 -X POST \

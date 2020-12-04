@@ -17,7 +17,7 @@ With [POST /diagram/{name}/SaveAs](https://apireference.aspose.cloud/diagram/#!/
 ```java
 
 // First get Access Token
-// Get App Key and App SID from https://dashboard.aspose.cloud/
+// Get Client Secret and Client Id from https://dashboard.aspose.cloud/
 
 curl -v "https://api.aspose.cloud/oauth2/token" \
 -X POST \
