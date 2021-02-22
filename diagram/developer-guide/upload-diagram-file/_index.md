@@ -5,11 +5,11 @@ url: /upload-diagram-file/
 weight: 40
 ---
 
-# **Introduction**
+## **Introduction**
 With [PUT /diagram/{name}/upload](https://apireference.aspose.cloud/diagram/#!/DiagramFile/DiagramFile_PutUpload) API you can upload diagram file to Aspose Cloud Storage.
-## **Resource URI**
+### **Resource URI**
 [Aspose.Diagram Cloud APIs Swagger UI](https://apireference.aspose.cloud/diagram/) lets you call this REST API directly from the browser. The description of the API and its parameters are also given there. 
-## **cURL Example**
+### **cURL Example**
 {{< tabs tabTotal="2" tabID="1" tabName1="Request" tabName2="Response" >}}
 
 {{< tab tabNum="1" >}}
@@ -51,9 +51,9 @@ curl -v "https://api.aspose.cloud/v1.1/diagram/file_get_1.vdx/upload?IsOverwrite
 {{< /tab >}}
 
 {{< /tabs >}}
-# **SDKs**
-Using an SDK (API client) is the quickest way for a developer to speed up the development. An SDK takes care of a lot of low-level details of making requests and handling responses and lets you focus on writing code specific to your particular project. Checkout our [GitHub repository](https://github.com/aspose-diagram-cloud) for a complete list of Aspose.Diagram Cloud SDKs along with working examples, to get you started in no time. Please check [Available SDKs](/available-sdks/) article to learn how to add an SDK to your project.
-## **SDK Examples**
+## **SDKs**
+Using an SDK (API client) is the quickest way for a developer to speed up the development. An SDK takes care of a lot of low-level details of making requests and handling responses and lets you focus on writing code specific to your particular project. Checkout our [GitHub repository](https://github.com/aspose-diagram-cloud) for a complete list of Aspose.Diagram Cloud SDKs along with working examples, to get you started in no time. Please check [Available SDKs](/diagram/available-sdks/) article to learn how to add an SDK to your project.
+### **SDK Examples**
 {{< tabs tabTotal="5" tabID="4" tabName1="C#" tabName2="Java" tabName3="Node.js" tabName4="Python" tabName5="PHP" >}}
 
 {{< tab tabNum="1" >}}
