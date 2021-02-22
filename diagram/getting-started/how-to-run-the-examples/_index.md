@@ -6,7 +6,7 @@ weight: 50
 ---
 
 ## **Running Aspose.Diagram Cloud Examples**
-All examples of Aspose.Diagram Cloud are hosted on [Github](https://github.com/aspose-diagram-cloud). Examples are located in the **Examples** folder.
+All examples of Aspose.Diagram Cloud are hosted on [Github](https://github.com/aspose-diagram-cloud).
 ## **Contribute**
 If you like to add or improve an example, we encourage you to contribute to the project. All examples and showcase projects in this repository are open source and can be freely used in your own applications.
 
